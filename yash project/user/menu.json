@@ -1,0 +1,81 @@
+{
+    "0" : {
+        "name" : "Maintenance",
+        "submenu" : {
+            "0" : {
+                "name" : "Membership Add",
+                "url" : "0_0_Membership_Add.php"
+            },
+            "1" : {
+                "name" : "Membership Update",
+                "url" : "0_1_Membership_Update.php"
+            },
+            "2" : {
+                "name" : "Books Add",
+                "url" : "0_2_Books_Add.php"
+            },
+            "3" : {
+                "name" : "Books Update",
+                "url" : "0_3_Books_Update.php"
+            },
+            "4" : {
+                "name" : "User Add",
+                "url" : "0_4_User_Add.php"
+            },
+            "5" : {
+                "name" : "User Update",
+                "url" : "0_5_User_Update.php"
+            }
+        }
+    },
+    "1" : {
+        "name" : "Reports",
+        "submenu" : {
+            "0" : {
+                "name" : "Master List of Books",
+                "url" : "1_0_Books.php"
+            },
+            "1" : {
+                "name" : "Master List of Memberships",
+                "url" : "1_1_Membership.php"
+            },
+            "2" : {
+                "name" : "Active Issues",
+                "url" : "1_2_Issues.php"
+            },
+            "3" : {
+                "name" : "Overdue Returns",
+                "url" : "1_3_Overdues.php"
+            },
+            "4" : {
+                "name" : "Pending Issues Requests",
+                "url" : "1_4_Pending_Issues.php"
+            }
+        }
+    },
+    "2" : {
+        "name" : "Transactions",
+        "submenu" : {
+            "0" : {
+                "name" : "is Book Available",
+                "url" : "2_0_search_book.php"
+            },
+            "1" : {
+                "name" : "Issue Book",
+                "url" : "2_1_Issue_Book.php"
+            },
+            "2" : {
+                "name" : "Return Book",
+                "url" : "2_2_Return_Book.php"
+            },
+            "3" : {
+                "name" : "Payfine Request",
+                "url" : "2_3_Payfine_Request.php"
+            }
+        }
+    },
+    "3":{
+        "name" : "Logout",
+        "url" : "../logout.php"
+    }
+}
