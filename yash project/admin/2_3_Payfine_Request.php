@@ -88,7 +88,72 @@ $menu_json = json_decode($menu_json, true);
                         </h4>
                     </div>
                     <div class="card-body" style="height: 500px">
+                    <form method="post" style="width:800px">
+                            <div class="row mb-3">
+                                <label for="inputauthor" class="col-sm-2 col-form-label">Enter Book Name</label>
+                                <div class="col-sm-10">
+                                    <input type="author" class="form-control" id="inputauthor">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputauthor" class="col-sm-2 col-form-label">Enter Author</label>
+                                <div class="col-sm-10">
+                                    <input type="author" class="form-control" id="inputauthor">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputauthor" class="col-sm-2 col-form-label">Serial No.</label>
+                                <div class="col-sm-10">
+                                    <input type="author" class="form-control" id="inputauthor">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputstartdate" class="col-sm-2 col-form-label">Issue Date</label>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" id="inputstartdate">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputenddate" class="col-sm-2 col-form-label">Return Date</label>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" id="inputenddate">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputenddate" class="col-sm-2 col-form-label">Actual Return Date</label>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" id="inputenddate">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputremarks" class="col-sm-2 col-form-label">Fine Calculated</label>
+                                <div class="col-sm-10">
+                                    <input type="remarks" class="form-control" id="inputremarks">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputname" class="col-sm-2 col-form-label">Fine Paid</label>
+                                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                                    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                                    
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputremarks" class="col-sm-2 col-form-label">Remarks</label>
+                                <div class="col-sm-10">
+                                    <input type="remarks" class="form-control" id="inputremarks">
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-5">
+                                    <button class="btn btn-primary" type="Reset">Cancel</button>
+                                </div>
+                                <div class="col-5">
+                                    <button class="btn btn-primary" type="Submit">Confirm</button>
+                                </div>
+                            </div>
 
+                        </form>
                     </div>
                 </div>
             </div>

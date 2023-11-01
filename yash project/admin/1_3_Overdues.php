@@ -88,7 +88,67 @@ $menu_json = json_decode($menu_json, true);
                         </h4>
                     </div>
                     <div class="card-body" style="height: 500px">
-
+                    <form method="post" style="width:800px">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Serial No. Book</th>
+                                        <th scope="col">Name of Book</th>
+                                        <th scope="col">Membership Id</th>
+                                        <th scope="col">Date of Issue</th>
+                                        <th scope="col">Date of Return</th>
+                                        <th scope="col">Fine Calculations</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="row ">
+                                <div class="col-5">
+                                    <button class="btn btn-primary" type="Reset">Back</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

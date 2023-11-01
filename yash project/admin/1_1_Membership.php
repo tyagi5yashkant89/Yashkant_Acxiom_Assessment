@@ -88,7 +88,88 @@ $menu_json = json_decode($menu_json, true);
                         </h4>
                     </div>
                     <div class="card-body" style="height: 500px">
-
+                    <form method="post" style="width:800px">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Membership Id</th>
+                                        <th scope="col">Name of Member</th>
+                                        <th scope="col">Contact Number</th>
+                                        <th scope="col">Contact Address</th>
+                                        <th scope="col">Aadhar Card No.</th>
+                                        <th scope="col">Start Date of Membership</th>
+                                        <th scope="col">End Date of Membership</th>
+                                        <th scope="col">Status(Active/Inactive)</th>
+                                        <th scope="col">Amount Pending(Fine)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="row ">
+                                <div class="col-5">
+                                    <button class="btn btn-primary" type="Reset">Cancel</button>
+                                </div>
+                                <div class="col-5">
+                                    <button class="btn btn-primary" type="Submit">Confirm</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

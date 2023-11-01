@@ -18,6 +18,7 @@ $menu_json = json_decode($menu_json, true);
     <title>Login Form</title>
     <!-- Bootstrap CSS CDN -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <style>
         /* Custom CSS to center the form on the screen */
         html,
@@ -88,7 +89,56 @@ $menu_json = json_decode($menu_json, true);
                         </h4>
                     </div>
                     <div class="card-body" style="height: 500px">
+                    <form method="post" style="width:800px">
+                            <div class="row mb-3">
+                                <label for="inputname" class="col-sm-2 col-form-label">Enter Book Name</label>
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                        Choose
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Book 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Book 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Book 3</a></li>
+                                        <li><a class="dropdown-item" href="#">Book 4</a></li>
+                                        <li><a class="dropdown-item" href="#">Book 5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputauthor" class="col-sm-2 col-form-label">Enter Author</label>
+                                <div class="col-sm-10">
+                                    <input type="author" class="form-control" id="inputauthor">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputstartdate" class="col-sm-2 col-form-label">Issue Date</label>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" id="inputstartdate">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputenddate" class="col-sm-2 col-form-label">Return Date</label>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" id="inputenddate">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputremarks" class="col-sm-2 col-form-label">Remarks</label>
+                                <div class="col-sm-10">
+                                    <input type="remarks" class="form-control" id="inputremarks">
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-5">
+                                    <button class="btn btn-primary" type="Reset">Cancel</button>
+                                </div>
+                                <div class="col-5">
+                                    <button class="btn btn-primary" type="Submit">Confirm</button>
+                                </div>
+                            </div>
 
+                        </form>
                     </div>
                 </div>
             </div>

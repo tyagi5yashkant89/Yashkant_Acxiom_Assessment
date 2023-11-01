@@ -94,13 +94,11 @@ $menu_json = json_decode($menu_json, true);
                                 <label for="inputenddate" class="col-sm-2 col-form-label"></label>
                                 <div class="col-sm-10">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                            id="inlineRadio1" value="option1">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                         <label class="form-check-label" for="inlineRadio1">Book</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                            id="inlineRadio2" value="option2">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                                         <label class="form-check-label" for="inlineRadio2">Movie</label>
                                     </div>
                                 </div>
@@ -114,7 +112,7 @@ $menu_json = json_decode($menu_json, true);
                             <div class="row mb-3">
                                 <label for="inputdateofprocurement" class="col-sm-2 col-form-label">Date of Procurement</label>
                                 <div class="col-sm-10">
-                                    <input type="dateofprocurement" class="form-control" id="inputdatofprocurement">
+                                    <input type="date" class="form-control" id="inputdatofprocurement">
                                 </div>
                             </div>
                             <div class="row mb-3">
@@ -123,6 +121,14 @@ $menu_json = json_decode($menu_json, true);
                                     <input type="quantity/copies" class="form-control" id="inputquantity/copies">
                                 </div>
                             </div>
+                            <div class="row ">
+                                    <div class="col-5">
+                                        <button class="btn btn-primary" type="Reset">Cancel</button>
+                                    </div>
+                                    <div class="col-5">
+                                        <button class="btn btn-primary" type="Submit">Confirm</button>
+                                    </div>
+                                </div>
                         </form>
                     </div>
                 </div>

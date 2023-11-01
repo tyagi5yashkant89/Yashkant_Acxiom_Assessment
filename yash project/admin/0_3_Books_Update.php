@@ -18,6 +18,7 @@ $menu_json = json_decode($menu_json, true);
     <title>Login Form</title>
     <!-- Bootstrap CSS CDN -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <style>
         /* Custom CSS to center the form on the screen */
         html,
@@ -88,7 +89,62 @@ $menu_json = json_decode($menu_json, true);
                         </h4>
                     </div>
                     <div class="card-body" style="height: 500px">
-
+                        <form method="post" style="width:800px">
+                            <div class="row mb-3">
+                                <label for="inputenddate" class="col-sm-2 col-form-label"></label>
+                                <div class="col-sm-10">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Book</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Movie</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputbook/moviename" class="col-sm-2 col-form-label">Book/Movie Name</label>
+                                <div class="col-sm-10">
+                                    <input type="book/moviename" class="form-control" id="inputbook/moviename">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputserialno" class="col-sm-2 col-form-label">Serial No.</label>
+                                <div class="col-sm-10">
+                                    <input type="serialno" class="form-control" id="inputserialno">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputname" class="col-sm-2 col-form-label">Status</label>
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                        Choose
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Available</a></li>
+                                        <li><a class="dropdown-item" href="#">Unavailable</a></li>
+                                        <li><a class="dropdown-item" href="#">Removed</a></li>
+                                        <li><a class="dropdown-item" href="#">On repair</a></li>
+                                        <li><a class="dropdown-item" href="#">To replace</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputdate" class="col-sm-2 col-form-label">Date</label>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" id="inputdat">
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-5">
+                                    <button class="btn btn-primary" type="Reset">Cancel</button>
+                                </div>
+                                <div class="col-5">
+                                    <button class="btn btn-primary" type="Submit">Confirm</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
